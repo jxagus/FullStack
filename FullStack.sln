@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{DFA417CD-D730-4A00-B4D5-454326590E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{3838BE16-91EA-46E8-ACAD-7B5B9CAB3A4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA417CD-D730-4A00-B4D5-454326590E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA417CD-D730-4A00-B4D5-454326590E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA417CD-D730-4A00-B4D5-454326590E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA417CD-D730-4A00-B4D5-454326590E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3838BE16-91EA-46E8-ACAD-7B5B9CAB3A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3838BE16-91EA-46E8-ACAD-7B5B9CAB3A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3838BE16-91EA-46E8-ACAD-7B5B9CAB3A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3838BE16-91EA-46E8-ACAD-7B5B9CAB3A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5FDC5FA-8D97-4D6F-AFB1-F7E0F65B5772}
+	EndGlobalSection
+EndGlobal
