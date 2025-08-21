@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Application.Abstractions
 {
-    internal interface IRepository
+    internal interface IRepositoryz<TEntity> //Contrato
     {
+        Task<TEntity> GetByIdAsync(int id); //Asincronia
+        Task<IEnumerable<TEntity>> GetAllAsyncs(int id);
+        Task AddAssync(TEntity entity);
+        Task Update(TEntity entity);
+        Task Delete(int id);
     }
 }
