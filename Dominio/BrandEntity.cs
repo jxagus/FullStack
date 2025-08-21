@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    internal class BrandEntity
+    public class BrandEntity
     {
         private string _name;
         public int? Id { get; private set; } //INT? tipo nulleable
@@ -32,10 +32,9 @@ namespace Domain
             {
                 throw new ArgumentOutOfRangeException(nameof(id), "Id debe ser positivo. ");
             }
+            Id = id;
+            Name = name;
         }
-        public override string ToString()
-        {
-            return $"BrandEntity: Id={Id}, Name={Name}";
-        }
+ 
     }
 }
