@@ -8,7 +8,7 @@ namespace Application.Abstractions
 {
     public interface IRepository<TEntity> //Contrato
     {
-        Task<TEntity> GetByIdAsync(int id); //Asincronia
+        Task<TEntity> GetByIdAsync(int id); 
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task AddAsync(TEntity entity);
         Task UpdateAsync(TEntity entity);
